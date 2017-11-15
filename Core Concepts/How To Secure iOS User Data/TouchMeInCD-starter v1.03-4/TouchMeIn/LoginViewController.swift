@@ -44,6 +44,25 @@ class LoginViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    // 1
+    let hasLogin = UserDefaults.standard.bool(forKey: "hasLoginKey")
+    
+    // 2
+    if hasLogin {
+        loginButton.setTitle("Login", for: .normal)
+        loginButton.tag = loginButtonTag
+        createInfoLabel.isHidden = true
+    } else {
+        loginButton.setTitle("Create", for: .normal)
+        loginButton.tag = createLoginButtonTag
+        createInfoLabel.isHidden = false
+    }
+    
+    // 3
+    if let storedUsername = UserDefaults.standard.value(forKey: "username") as? String {
+        usernameTextField.text = storedUsername
+    }
   }
   
     // MARK: - Action for checking username/password

@@ -17,6 +17,7 @@
 		2A94F6E619FE7D31007CED2D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94F6E519FE7D31007CED2D /* Note.swift */; };
 		2AC21FA11A005A88003FD06F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC21FA01A005A88003FD06F /* LoginViewController.swift */; };
 		E04AD3441FB9E29B005A5218 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04AD3431FB9E29B005A5218 /* KeychainPasswordItem.swift */; };
+		E0975DDE1FBC7FFA00C71857 /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0975DDD1FBC7FFA00C71857 /* TouchIDAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2A94F6E519FE7D31007CED2D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		2AC21FA01A005A88003FD06F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E04AD3431FB9E29B005A5218 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		E0975DDD1FBC7FFA00C71857 /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		2A2CDC9319FB441200BDF4E3 /* TouchMeIn */ = {
 			isa = PBXGroup;
 			children = (
+				E0975DDD1FBC7FFA00C71857 /* TouchIDAuthentication.swift */,
 				2A2CDC9619FB441200BDF4E3 /* AppDelegate.swift */,
 				2A2CDC9B19FB441200BDF4E3 /* MasterViewController.swift */,
 				2A2CDC9D19FB441200BDF4E3 /* DetailViewController.swift */,
@@ -166,6 +169,7 @@
 				E04AD3441FB9E29B005A5218 /* KeychainPasswordItem.swift in Sources */,
 				2A2CDC9719FB441200BDF4E3 /* AppDelegate.swift in Sources */,
 				2A2CDC9C19FB441200BDF4E3 /* MasterViewController.swift in Sources */,
+				E0975DDE1FBC7FFA00C71857 /* TouchIDAuthentication.swift in Sources */,
 				2A2CDC9E19FB441200BDF4E3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
